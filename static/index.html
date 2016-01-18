@@ -17,12 +17,12 @@
 
       require('babel-register');
 
-      // Add src/browser to global paths so that we can import moseamp things
-      // with paths like 'moseamp/audio'.
+      // Add src/browser to global paths so that we can import koholint things
+      // with paths like 'koholint/blah'.
       require('module').globalPaths.push(path.resolve(__dirname, '../src/browser'));
 
       // Let's go!
-      require('koholint').start();
+      require('koholint');
     </script>
   </body>
 </html>

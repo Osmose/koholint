@@ -6,7 +6,7 @@
   "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/electron ."
+    "start": "babel-node ./node_modules/.bin/electron ."
   },
   "author": "Michael Kelly",
   "license": "MIT",
@@ -19,8 +19,10 @@
     "electron-prebuilt": "^0.35.4",
     "pixi.js": "pixijs/pixi.js#v3.0.8",
     "react": "^0.14.3",
+    "react-dom": "^0.14.3",
     "react-redux": "^4.0.1",
-    "redux": "^3.0.5"
+    "redux": "^3.0.5",
+    "tsort": "0.0.1"
   },
   "devDependencies": {
     "history": "^1.13.1",
